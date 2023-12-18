@@ -113,8 +113,8 @@ X_test = test.drop('inadimplente', axis = 1)
 # gradient booster params
 best_params = {'learning_rate': 0.1, 
                'max_depth': 3, 
-               'min_samples_split': 10,
-               'min_samples_leaf': 1,
+               'min_samples_split': 2,
+               'min_samples_leaf': 2,
                'n_estimators': 200, 
                'subsample': 0.8}
 
